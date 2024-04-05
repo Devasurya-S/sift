@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+.nav-option {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.main-holder {
+    padding-left: 8rem;
+    padding-right: 3rem;
+}
+
+.hero-holder {
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    display: flex;
+}
+
+.hero-text-holder {
+    width: 40%;
+}
+
+.sub-hero-text-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
+.hero-image-holder {
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    padding-right: 3rem;
+}
+
+.hero-image {
+    width: 35rem;
+}
+
+.hero-paragraph {
+    width: 89%;
+    margin-top: 2.5rem;
+    color: #777575;
+}
+
+.custom-border-bottom {
+    border-bottom: 2px solid #ACACAC;
+}
+
+.about-paragraph {
+    color: #6D6D6D;
+    width: 98%;
+    margin: 1rem auto;
+    margin-top: 0.5rem;
+}
+
+.how-paragraph {
+    width: 80%;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    color: #6A6A6A;
+}
+
+.main-list-holder {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.how-list-holder {
+    justify-content: start;
+    padding-bottom: 2.5rem;
+}
+
+.icon-holder {
+    background-color: #C6EEE5;
+    border-radius: 100%;
+    height: 3.25rem;
+    width: 3.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.icon-paragraph {
+    width: 55%;
+}
+
+.phone {
+    height: 90%;
+}
+
+.extra-padding-bottom {
+    padding-bottom: 1rem;
+}
+
+.shareable {
+    width: 100%;
+    margin: 1.5rem 0 2rem 0;
+}
+
+.form-main-holder {
+    margin-top: 6rem;
+}
+
+form {
+    padding-right: 5rem;
+    padding-left: 1rem;
+}
+
+.label-color {
+    color: #727272;
+    font-weight: 350;
+}
+
+.btn-submit {
+    background-color: #13D5B8;
+    color: #FFFFFF;
+    padding: 0.5rem 3rem;
+    margin-top: 1rem;
+    font-size: 1.375rem;
+}
+
+footer {
+    margin-top: 10rem;
+}
+
+.footer-paragraph {
+    margin: 0 5rem;
+    font-size: 0.75rem;
+}
+
+.footer-sub-container {
+    padding-left: 4rem;
+    padding-right: 2rem;
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.footer-menu {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.87rem;
+    font-weight: 600;
+}
+
+.pl-4r {
+    padding-right: 3rem;
+}
+
+.green {
+    color: #33CC99;
+}
+
+.btn-background {
+    background-color: #33CC99;
+    color: #FFFFFF;
+    padding: 0.5rem 2.5rem;
+}
+
+.mt-6 {
+    margin-top: 5rem;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.fs-40 {
+    font-size: 2.5rem;
+}
+
+.fs-35 {
+    font-size: 2.1rem;
+}
+
+.fs-20 {
+    font-size: 1.3rem;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+@media (max-width: 1160px) {
+    .nav-option {
+        font-weight: 600;
+    }
+
+    .main-holder {
+        padding: 0 2rem;
+    }
+
+    .hero-holder {
+        padding-top: 2rem;
+        padding-bottom: 5rem;
+        flex-direction: column;
+    }
+    
+    .hero-text-holder {
+        width: 100%;
+    }
+    
+    .hero-image-holder {
+        width: 100%;
+        display: block;
+        padding-right: 0;
+    }
+
+    .hero-image {
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+    
+    .hero-paragraph {
+        width: 100%;
+        margin-top: 2.5rem;
+    }
+
+    .about-paragraph {
+        width: 100%;
+        margin: 1rem 0;
+    }
+
+    .how-paragraph {
+        width: 100%;
+    }    
+
+    .how-list-holder {
+        justify-content: center;
+        padding-bottom: 1.5rem;
+    }
+    
+    .icon-holder {
+        background-color: #C6EEE5;
+        border-radius: 100%;
+        height: 3.25rem;
+        width: 3.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 1.5rem;
+    }
+    
+    .icon-paragraph {
+        width: 80%;
+    }
+    
+    .phone {
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    form {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    footer {
+        margin-top: 4rem;
+    }
+    
+    .footer-paragraph {
+        margin: 0 1rem;
+        font-size: 0.75rem;
+    }
+    
+    .footer-sub-container {
+        padding: 0 0;
+        margin-top: 2.5rem;
+        margin-bottom: 3rem;
+    }
+
+    .footer-menu-holder {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0.5rem;
+    }
+
+    .footer-menu {
+        margin-bottom: 0.5rem;
+    }
+
+}
